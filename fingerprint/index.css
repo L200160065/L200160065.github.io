@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Baloo+Chettan');
+.kepala{
+    text-align: center;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+
+.navbar-brand{
+    font-family: 'Baloo Chettan', cursive;
+}
+.nav-link{
+    font-family: 'Baloo Chettan', cursive;
+}
+.container{
+
+    font-family: 'Baloo Chettan', cursive;
+
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.page-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

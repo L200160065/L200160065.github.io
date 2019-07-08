@@ -45,26 +45,120 @@
                 <div class="view overlay zoom">
                   <img  class="rounded mx-auto d-block img-fluid" src="images/1.jpg" alt="">
                 </div>
+                <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#basicExampleModal1" >Information</button>
               </div>
                 <div class="col-md-3 col-xs-4">
                     <h4>Filtering Process</h4>
                     <div class="view overlay zoom">
                         <img data-toggle="modal" data-target="#modal-filtering" class="rounded mx-auto d-block img-fluid" src="images/1_enhanced.gif" alt="filtering ">
                     </div>
+                   <button type="button" class="btn btn-md btn-black" data-toggle="modal" data-target="#basicExampleModal2">Information</button>
                 </div>
                 <div class="col-md-3 col-xs-4">
                         <h4>Thinning Process</h4>
                         <div class="view overlay zoom">
                             <img data-toggle="modal" data-target="#modal-thinning" class="rounded mx-auto d-block img-fluid" src="images/1_enhanced_thinned.gif" alt="">
                         </div>
+                    <button type="button" class="btn btn-md btn-info" data-toggle="modal" data-target="#basicExampleModal3">Information</button>
                 </div>
                 <div class="col-md-3 col-xs-4">
                             <h4>Minutae Process </h4>
                             <div class="view overlay zoom">
                                 <img  data-toggle="modal" data-target="#modal-minutae" class="rounded mx-auto d-block img-fluid" src="images/1_enhanced_thinned_minutiae.gif" alt="">
                             </div>
+                    <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#basicExampleModal4">Information</button>
                 </div>
       </div>
+      <!-- Frame Modal Bottom -->
+            <div class="modal fade bottom" id="basicExampleModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+
+              <!-- Add class .modal-frame and then add class .modal-bottom (or other classes from list above) to set a position to the modal -->
+              <div class="modal-dialog modal-frame modal-bottom" role="document">
+
+
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                      <p class="pt-3 pr-2">Ini merupakan original gambar sidik jari sebelum proses filtering</p>
+
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       <!-- Frame Modal Bottom -->
+       <!-- Frame Modal Bottom -->
+            <div class="modal fade bottom" id="basicExampleModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+
+              <!-- Add class .modal-frame and then add class .modal-bottom (or other classes from list above) to set a position to the modal -->
+              <div class="modal-dialog modal-frame modal-bottom" role="document">
+
+
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                      <p class="pt-3 pr-2">Pada tahap ini merupakan tahap normalisasi dari gambar original.Segmentasi
+                        dilakukan pemisahan background gambar original menjadi putih.Gambar akan terfilter dengan baik
+                        jika gambar original berkualtias bagus dan hasilnya akan hitam pada alur sidik jari dan putih
+                        untuk background</p>
+
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       <!-- Frame Modal Bottom -->
+       <!-- Frame Modal Bottom -->
+            <div class="modal fade bottom" id="basicExampleModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+
+              <!-- Add class .modal-frame and then add class .modal-bottom (or other classes from list above) to set a position to the modal -->
+              <div class="modal-dialog modal-frame modal-bottom" role="document">
+
+
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                      <p class="pt-3 pr-2">Pada proses thinning merupakan proses dimana mengecilkan alur - alur garis sidik jari
+                        untuk memudahkan dalam proses pengekstrakan minutae</p>
+
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       <!-- Frame Modal Bottom -->
+       <!-- Frame Modal Bottom -->
+            <div class="modal fade bottom" id="basicExampleModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+
+              <!-- Add class .modal-frame and then add class .modal-bottom (or other classes from list above) to set a position to the modal -->
+              <div class="modal-dialog modal-frame modal-bottom" role="document">
+
+
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="row d-flex justify-content-center align-items-center">
+
+                      <p class="pt-3 pr-2">Tahap akhir adalah proses minutae.Dimana proses ini menentukan bifurcation
+                        dengan warna merah serta ending berwarna hijau. Proses Minutae berhasil dilihat pada prosentase
+                        ketepatan warna bifurcation dan ending</p>
+
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       <!-- Frame Modal Bottom -->
       <!-- Footer -->
       <footer class="page-footer font-small default-color">
 
